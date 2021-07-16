@@ -7,3 +7,7 @@
 3. You can replace the data that ou need to work on in data.js (If you need to check with a DB ,set up a config folder in the root and add default.json , which contains DBHost which contains the URL for your mongodb, if you have a test and dev db set test.json and dev.json with DBHost values)
 4. Run the test "npm test"
 5. To run your application "node start"
+
+# To set up a build cycle
+1. There is a script folder with a test, to setup automation using jenkins
+2. In order to dockerise run "docker-compose up" or "docker compose up"
